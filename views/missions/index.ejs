@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+    <ul class="missions">
+        <% for(i = 0; i < mission.length; i++) { %>
+            <li><%= mission[i].name %></li>
+            <% } %>
+    </ul>
+    <!-- <h1>Mission Control</h1>
+    <ul class="missions">
+        <li href="missions/0"> <%= mission.name %> </li>
+        <li href="missions/2"> <%= mission.name %> </li>
+        <li href="missions/3"> <%= mission.name %> </li>
+        <li href="missions/4"> <%= mission.name %> </li>
+    </ul> -->
+</body>
+</html>
